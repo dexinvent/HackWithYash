@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Shivam Sharma",
-    "email": "shivamsharma77607@gmail.com",
-    "github": "@Shivam-Sharma-1",
-    "linkedin": "https://www.linkedin.com/in/shivamsharma77607"
+    "name": "Yash raj",
+    "email": "yashrajcybersec@gmail.com",
+    "github": "@hackwithyash",
+    "linkedin": "https://www.linkedin.com/in/hackwithyash"
   },
   "scripts": {
     "dev": "next dev",

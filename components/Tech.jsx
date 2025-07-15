@@ -19,9 +19,9 @@ const techVariants = [
   "Languages",
   "Frameworks",
   "Libraries",
-  "Databases",
+  "OSINT",
   "Tools",
-  "Environments",
+  "Environments/OS",
 ];
 
 function Tech() {

@@ -28,27 +28,19 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
+          Hello! I&apos;m Yash Raj, a 20-year-old cybersecurity enthusiast from India. I&apos;m currently pursuing my BCA 1st year at Patliputra University, where I&apos;m exploring the exciting world of technology and computer science. My passion lies in cybersecurity, particularly in understanding and addressing the challenges of digital security. I enjoy working on innovative solutions to tackle cyber threats and enhance online safety. I&apos;m always eager to learn, grow, and contribute to creating a safer digital environment.
           <br className="sm:block hidden" />
-          Let&apos;s collaborate to bring your ideas to life!
+          Let&apos;s collaborate to secure!
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:yasgrajcybersec@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            yashrajcybersec@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +56,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/Resume- Yash Raj.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

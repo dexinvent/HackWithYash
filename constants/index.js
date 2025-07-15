@@ -34,7 +34,7 @@ const navLinks = [
 
 const services = [
   {
-    title: "Software Developer",
+    title: "Ethical Hacking",
     icon: <FullStackIcon />,
   },
   {
@@ -46,11 +46,11 @@ const services = [
   //   icon: <BackendIcon />,
   // },
   {
-    title: "Problem Solving",
+    title: "Web Penetration Testing",
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Freelancer",
+    title: "Bug Bounty",
     icon: <FreelancerIcon />,
   },
   // {
@@ -77,20 +77,20 @@ const technologies = {
       link: "https://262.ecma-international.org/",
     },
     {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
+      name: "Bash",
+      icon: "/assets/tech/gnu-bash.png",
+      link: "https://www.gnu.org/software/bash/",
     },
-    {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
-    },
-    {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
-    },
+//    {
+//      name: "C",
+//      icon: "/assets/tech/c.svg",
+//      link: "https://en.cppreference.com/w/c",
+//    },
+//    {
+//      name: "Java",
+//      icon: "/assets/tech/java.svg",
+//      link: "https://www.java.com/en/",
+//    },
     {
       name: "Python",
       icon: "/assets/tech/python.svg",
@@ -99,67 +99,28 @@ const technologies = {
   ],
   frameworks: [
     {
-      name: "Next.js",
-      icon: "/assets/tech/nextjs.svg",
-      link: "https://nextjs.org/",
+      name: "Metasploit",
+      icon: "/assets/tech/metasploit.svg",
+      link: "https://www.metasploit.com/",
     },
     {
-      name: "TailwindCSS",
-      icon: "/assets/tech/tailwindcss.svg",
-      link: "https://tailwindcss.com/",
+      name: "Burp Suite",
+      icon: "/assets/tech/burp.svg",
+      link: "https://portswigger.net/burp",
     },
     {
-      name: "Express.js",
-      icon: "/assets/tech/expressjs.png",
-      link: "https://expressjs.com/",
-    },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
+      name: "OWASP",
+      icon: "/assets/tech/Owasp.svg",
+      link: "https://owasp.org/",
     },
   ],
   libraries: [
     {
-      name: "React",
-      icon: "/assets/tech/react.svg",
-      link: "https://react.dev/",
+      name: "Scapy",
+      icon: "/assets/tech/scapy_logo.png",
+      link: "https://github.com/secdev/scapy",
     },
-    {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
-    {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
-    {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
-    },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+    
   ],
   tools: [
     {
@@ -173,50 +134,51 @@ const technologies = {
       link: "https://github.com/",
     },
     {
-      name: "Postman",
-      icon: "/assets/tech/postman.svg",
-      link: "https://www.postman.com/",
+      name: "NMAP",
+      icon: "/assets/tech/nmap.svg",
+      link: "https://nmap.org/",
     },
     {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
+      name: "Whireshark",
+      icon: "/assets/tech/Wireshark.svg",
       link: "https://www.figma.com/",
     },
     {
-      name: "Docker",
-      icon: "/assets/tech/docker.svg",
-      link: "https://www.docker.com/",
+      name: "Hydra",
+      icon: "/assets/tech/hydra.svg",
+      link: "https://www.kali.org/tools/hydra/",
     },
   ],
   environments: [
     {
-      name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
-      link: "https://nodejs.org/en",
+      name: "Kali Linux",
+      icon: "/assets/tech/kalilinux.svg",
+      link: "https://kali.org/",
+    },
+    {
+      name: "VM Ware",
+      icon: "/assets/tech/vmware2.svg",
+      link: "https://www.vmware.com/",
     },
   ],
-  databases: [
+ databases: [
     {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
+      name: "Shodan",
+      icon: "/assets/tech/Shodan.svg",
+      link: "https://www.shodan.io/",
     },
-    {
-      name: "PostgreSQL",
-      icon: "/assets/tech/postgresql.png",
-      link: "https://www.postgresql.org",
+     {
+      name: "Censys",
+      icon: "/assets/tech/censys.svg",
+      link: "https://www.censys.com/",
     },
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
+     {
+      name: "Amass",
+      icon: "/assets/tech/Amass.png",
+      link: "https://github.com/owasp-amass/amass",
     },
   ],
+
 };
 
 const experiences = [
@@ -234,29 +196,29 @@ const experiences = [
   //   ],
   // },
   {
-    title: "Frontend Developer Intern",
-    company_name: "Intern at Curowell Healthcare Private Ltd",
-    icon: "/assets/company/curowell-logo.svg",
+    title: "Cyber Security Intern",
+    company_name: "Intern at Shadowfox",
+    //icon: "/assets/company/LOGO.svg",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "July 2025",
     points: [
-      "Developing a healthcare SaaS platform using Next.js, TypeScript, and Tailwind CSS, significantly enhancing user experience.",
-      "Maintaining an efficient codebase under senior guidance, ensuring adherence to best practices in software development.",
-      "Contributing to the DND form microfrontend, improving user interaction by 30%.",
-      "Collaborating in UI/UX design efforts, leading to a 25% reduction in component development time.",
+      "Spearheaded project-based tasks at beginner, intermediate, and advanced levels during a 1-month virtual internship program, strengthening core cybersecurity skills.",
+      "Collaborated with cross-functional mentors and peers to solve real-world cybersecurity challenges and present practical solutions",
+      "Implemented self-paced learning strategies alongside mentor-guided sessions, leading to measurable skill advancement and completion of project milestones.",
+      "Managed end-to-end project submission requirements, including documentation and presentations, ensuring timely and high-quality deliverables.",
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
-    icon: "/assets/company/drdo-cabs.png",
+    title: "Cyber Security Intern",
+    company_name: "Intern at Codec Technologies",
+    //icon: "/assets/company/drdo-cabs.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "June 2025",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Completed a structured, one-month virtual internship focused on foundational to intermediate cybersecurity concepts and practical implementation.",
+      "Engaged in multiple project-based modules covering real-world security scenarios, enhancing technical proficiency and problem-solving skills.",
+      "Participated in live mentor-led sessions and self-guided learning tracks to deepen understanding of ethical hacking, vulnerability scanning, and OSINT.",
+      "Delivered project outcomes with comprehensive documentation and demo presentations, meeting quality standards and submission deadlines.",
     ],
   },
   // {
@@ -303,65 +265,64 @@ const testimonials = [
 
 const projects = [
   {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
+    name: "Web Spyder: Python baseed Website OINT CLI Tool",
     description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
+      "Developed a command-line tool for collecting OSINT data from websites. Features: WHOIS lookup, DNS records, subdomain discovery, CMS detection, SSL certificate info, and IP tracing. Designed a modular CLI interface allowing users to run specific scans or a full footprinting operation in a single command.",
     tags: [
       {
-        name: "typescript",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "requests",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "BeautifulSoup",
         color: "pink-text-gradient",
       },
       {
-        name: "shadcn",
+        name: "DNSPython",
         color: "orange-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "CLI",
         color: "yellow-text-gradient",
       },
     ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
+    image:"/assets/projects/WebSpyder.png",
+    source_code_link: "https://github.com/hackwithyash/WebSpyder",
+//    deployed_link: "https://quick-edit-app.vercel.app",
   },
   {
-    name: "FigPro",
+    name: "Password Strength Checker",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "A stylish, intuitive, and user-friendly Password Strength Checker built using Python and PyQt5. This tool evaluates the strength of your password and provides helpful suggestions to make it stronger. Features include real-time feedback, progress bar visualization, and optional show/hide password functionality.",
     tags: [
       {
-        name: "typescript",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "PyQt5",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "GUI Design",
         color: "pink-text-gradient",
       },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
+//     {
+//        name: "fabricjs",
+//       color: "orange-text-gradient",
+//     },
+//     {
+//       name: "liveblocks",
+//       color: "yellow-text-gradient",
+//     },
     ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    image: "/assets/projects/Pass.png",
+    source_code_link: "https://github.com/hackwithyash/Password-Strength-Checker",
+//    deployed_link: "https://fig-pro-github.vercel.app",
   },
   // {
   //   name: "GDSC Website",
@@ -394,36 +355,35 @@ const projects = [
   //   deployed_link: "https://gdscmvjce.vercel.app/",
   // },
   {
-    name: "Facility Management System",
+    name: "DigiTrace – Phone Number OSINT Tool",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "DigiTrace is a Python-based OSINT (Open Source Intelligence) tool for tracing Indian phone numbers. It fetches detailed information like owner name, SIM card provider, location, IP address, and more, using publicly available resources like calltracer.in.",
     tags: [
       {
-        name: "typescript",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "Numverify API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Phonenumbers",
         color: "pink-text-gradient",
       },
       {
-        name: "node.js",
+        name: "CLI",
         color: "orange-text-gradient",
       },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
+//      {
+//        name: "tanstack/react-query",
+//        color: "yellow-text-gradient",
+//      },
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/Digitrace.webp",
     source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+      "https://github.com/hackwithyash/DigiTrace",
+//    deployed_link:"https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
   // {
   //   name: "Netflix Clone",
@@ -501,38 +461,38 @@ const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/hackwithyash",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "https://www.linkedin.com/in/hackwithyash",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "https://twitter.com/dexinvent",
   },
-  {
-    id: "instagram",
-    icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
-  },
+//  {
+//    id: "instagram",
+//    icon: <InstagramIcon />,
+//    link: "https://www.instagram.com/",
+//  },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
+  "Ethical Hacker",
   500,
-  "Freelancer",
+  "Bug Hunter",
   500,
-  "Full-Stack developer",
+  "Web Penetration Tester",
   500,
-  "Frontend developer",
+  "CTF Player",
   500,
-  "Backend developer",
+  "OSINT",
   500,
-  "Problem solver",
-  500,
+//  "Problem solver",
+//  500,
 ];
 
 export {

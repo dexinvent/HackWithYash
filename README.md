@@ -1,7 +1,5 @@
 # 3D Portfolio
 
-![Portfolio Screenshot](/public/assets/readme_assets/screenshot.png)
-
 3D Portfolio is my personal portfolio website created using Next.js, Tailwind CSS, Three.js, React Three Fiber, and a collection of other technologies. This website showcases my skills, experiences, projects, and allows users to contact me. It also offers a dark and light theme to enhance the user experience.
 
 ## Table of Contents
@@ -80,6 +78,6 @@ The project structure is organized as follows:
 -   `pages`: Individual pages of the website.
 -   `utils`: Utility functions or helper scripts.
 
-## Author
+## Credit
 
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
+-  Credit to its respective owner.
