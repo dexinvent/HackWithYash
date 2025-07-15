@@ -141,7 +141,7 @@ const technologies = {
     {
       name: "Whireshark",
       icon: "/assets/tech/Wireshark.svg",
-      link: "https://www.figma.com/",
+      link: "https://www.wireshark.org/",
     },
     {
       name: "Hydra",
@@ -164,7 +164,7 @@ const technologies = {
  databases: [
     {
       name: "Shodan",
-      icon: "/assets/tech/Shodan.svg",
+      icon: "/assets/tech/shodan.svg",
       link: "https://www.shodan.io/",
     },
      {
