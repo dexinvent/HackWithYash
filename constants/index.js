@@ -265,7 +265,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Web Spyder: Python baseed Website OINT CLI Tool",
+    name: "Web Spyder: Python based Website OSINT CLI Tool",
     description:
       "Developed a command-line tool for collecting OSINT data from websites. Features: WHOIS lookup, DNS records, subdomain discovery, CMS detection, SSL certificate info, and IP tracing. Designed a modular CLI interface allowing users to run specific scans or a full footprinting operation in a single command.",
     tags: [
